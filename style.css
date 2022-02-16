@@ -1,0 +1,93 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 auto;
+    background-color:aliceblue;
+}
+
+h1 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-size: 3rem;
+}
+ 
+main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+#value {
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+
+
+/* Butões */
+
+#btnu {
+	background-color:#3bc560;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+#btnu:hover {
+	background-color:#5cbf2a;
+}
+#btnu:active {
+	position:relative;
+	top:1px;
+}
+
+#btnd {
+	background-color:#f51010;
+	border-radius:28px;
+	border:1px solid #f51010;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f51010;
+}
+#btnd:hover {
+	background-color:#df2222;
+}
+#btnd:active {
+	position:relative;
+	top:1px;
+}
+
+#btnr {
+	background-color:#000000;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+#btnr:hover {
+	background-color:#722eb1;
+}
+#btnr:active {
+	position:relative;
+	top:1px;
+}
+
+
